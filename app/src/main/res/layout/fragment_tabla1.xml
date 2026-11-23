@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".tabla1Fragment">
+
+    <TableLayout
+        android:id="@+id/tablita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <TextView
+                android:text="Clave"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Puesto"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Depto"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Sueldo"
+                android:textStyle="bold"
+                android:padding="8dp"/>
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

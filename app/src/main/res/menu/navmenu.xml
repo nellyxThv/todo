@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/crud"
+            android:icon="@drawable/crud"
+            android:title="Crud"/>
+        <item
+            android:id="@+id/tabla1"
+            android:icon="@drawable/tablae"
+            android:title="Tabla empleados"/>
+        <item
+            android:id="@+id/tabla2"
+            android:icon="@drawable/tablaudt"
+            android:title="Tabla uno,dos,tres"/>
+    </group>
+
+</menu>
